@@ -9,7 +9,6 @@ Release:        %{release}
 Source0:        http://www.splint.org/downloads/splint-%{version}.tar.bz2
 URL:            http://www.splint.org
 Group:          Development/C
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot 
 License:        GPL
 BuildRequires: flex
 
