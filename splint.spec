@@ -14,7 +14,6 @@ License:        GPL
 BuildRequires: flex
 
 %description
-
 Splint is a tool for statically checking C programs for security
 vulnerabilities and coding mistakes. With minimal effort, Splint can
 be used as a better lint. If additional effort is invested adding
