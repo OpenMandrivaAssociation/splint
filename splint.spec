@@ -1,6 +1,6 @@
 %define name    splint 
 %define version 3.1.2
-%define release %mkrel 3 
+%define release %mkrel 4 
 
 Name:           %{name} 
 Summary:        Splint - Secure Programming Lint
