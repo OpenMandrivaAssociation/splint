@@ -3,7 +3,7 @@
 %define release %mkrel 5
 
 Name:           %{name} 
-Summary:        Splint - Secure Programming Lint
+Summary:        - Secure Programming Lint
 Version:        %{version} 
 Release:        %{release} 
 Source0:        http://www.splint.org/downloads/splint-%{version}.tar.bz2
