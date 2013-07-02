@@ -1,15 +1,10 @@
-%define name    splint 
-%define version 3.1.2
-%define release %mkrel 5
-
-Name:           %{name} 
-Summary:        - Secure Programming Lint
-Version:        %{version} 
-Release:        %{release} 
+Name:           splint
+Summary:        Secure Programming Lint
+Version:        3.1.2
+Release:        6
 Source0:        http://www.splint.org/downloads/splint-%{version}.tar.bz2
 URL:            http://www.splint.org
 Group:          Development/C
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot 
 License:        GPL
 BuildRequires: flex
 
@@ -28,12 +23,10 @@ be done by any standard lint.
 make
 
 %install
-rm -rf $RPM_BUILD_ROOT
 %makeinstall
 
 
 %clean 
-rm -rf %buildroot
 
 %files 
 %defattr(0755,root,root,0755) 
