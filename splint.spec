@@ -1,7 +1,7 @@
 Name:           splint
 Summary:        Secure Programming Lint
 Version:        3.1.2
-Release:        6
+Release:        7
 Source0:        http://www.splint.org/downloads/splint-%{version}.tar.bz2
 URL:            http://www.splint.org
 Group:          Development/C
