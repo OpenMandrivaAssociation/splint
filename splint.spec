@@ -6,6 +6,11 @@ Source0:        http://www.splint.org/downloads/splint-%{version}.tar.bz2
 URL:            https://www.splint.org
 Group:          Development/C
 License:        GPL
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: flex
 
 %description
